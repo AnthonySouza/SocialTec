@@ -13,7 +13,7 @@
 .menu ul {
     padding:0px;
     margin:0px;
-    background-color:#EDEDED;
+    background-color:rgb(35, 35, 35);
     list-style:none;
 }
 
@@ -26,10 +26,12 @@
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
-    background-color: #232323;
+    background-color: rgb(35, 35, 35);
     color: #fff;
     text-decoration: none;
-    border: 2px solid #2b2b2b;
+    border-bottom: 1px solid #00273e;
+    position: fixed;
+    width: 100%;
 }
 
 .menu ul li a:hover {
@@ -353,6 +355,145 @@ left:-500px
             #menu li a {border-bottom:1px solid #ccc;}
             #menu li:first-child a {border-top:1px solid #ccc;}	
             }
+
+
+#r-menu {
+    background-color: rgb(35, 35, 35);
+    height: 100%;
+    width: 342px;
+    float: right;
+    margin-top: 50px;
+}
+
+#r-menu .top-buttons {
+    padding-top: 20px;
+}
+
+#r-menu .top-buttons button {
+    padding: 15px;
+    background-color: rgb(35, 35, 35);
+    border: 0px;
+    border-bottom: 2px solid #00273e;
+    /* padding-bottom: 20px; */
+    color: #e0e0e0;
+    font-family: "Play";
+    font-size: 13px;
+    margin-right: -4px;
+}
+
+#r-menu .top-buttons button:hover {
+    border-bottom: 3px solid #00a2ff;
+    cursor: pointer;
+}
+
+#r-menu .top-title {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: "Play";
+    color: #e0e0e0;
+    font-style: normal;
+    font-size: 11px !important;
+    font-weight: 100 !important;
+}
+
+#r-menu .message-container {
+    height: 73%;
+    overflow: scroll;
+}
+
+#r-menu .message-container .notification-box {
+    height: 70px;
+    cursor: pointer;
+    display: flex;
+}
+
+#r-menu .message-container .notification-box:hover {
+    background-color: #00a2ff;
+}
+
+#r-menu .message-container .notification-box:hover h6{
+    color: #e0e0e0;
+}
+
+#r-menu .message-container .notification-box:hover h5{
+    color: #e0e0e0;
+}
+
+#r-menu .message-container .notification-box img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+    display: block;
+}
+
+#r-menu .message-container .notification-box p{
+    font-size: 12px;
+    color: #e0e0e0;
+    text-decoration: none;
+    font-family: "Play";
+    font-style: normal;
+    display: inline-table;
+    margin-top: 16px;
+    margin-left: 5px;
+}
+
+#r-menu .message-container .notification-box h6{
+    font-size: 10px;
+    color: #b1b1b1;
+    text-decoration: none;
+    font-family: "Play";
+    font-style: normal;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: -79px;
+    font-weight: 100;
+}
+
+#r-menu .message-container .notification-box h5{
+    font-size: 10px;
+    color: #b1b1b1;
+    text-decoration: none;
+    font-family: "Play";
+    font-style: normal;
+    display: inline-block;
+    margin-top: 40px;
+    font-weight: 100;
+}
+
+#r-menu .message-container .notification-box .user {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+#r-menu .message-container .notification-box .user-online {
+    background-color: #00a2ff;
+}
+
+#r-menu .message-container .notification-box:hover .user-online {
+    background-color: #002a42;
+}
+
+#r-menu .message-container .notification-box .user-offline {
+    visibility: hidden;
+}
+
+#r-menu .message-container .notification-box:hover .user-offline {
+    visibility: hidden;
+}
+
+#r-menu .message-container .notification-box .user-busy {
+    background-color: #FF7E00;
+}
+
+#r-menu .message-container .notification-box:hover .user-busy {
+    background-color: #502700;
+}
 
 @media screen and (max-width: 422px) { 
 	.logo {
