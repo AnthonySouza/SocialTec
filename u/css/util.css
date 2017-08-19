@@ -1,0 +1,32 @@
+/*
+ * Web Site SocialTec
+ *
+ * @author    Antonio Souza
+ * @copyright 
+ * @license   MIT
+ * @mail      gabrieldaniel1798@gmail.com
+ * @created   19/08/2017 - 15:30
+ * @web       ---
+ */
+
+.label {
+    border-radius: 3px;
+    margin-right: 10px;
+    padding: 0px 6px 0px 6px;
+    font-family: sans-serif;
+    font-stretch: expanded;
+    font-size: 14px;
+    color: #00a2ff;
+    float: right;
+    border-width: 1px;
+    border-color: #2b2b2b;
+    border-style: solid;
+    background-color: #101010;
+    font-style: normal;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.label .label-number {
+    background-color: #ababab;
+}

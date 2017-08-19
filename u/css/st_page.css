@@ -1,0 +1,84 @@
+/*
+ * Web Site SocialTec
+ *
+ * @author    Antonio Souza
+ * @copyright 
+ * @license   MIT
+ * @mail      gabrieldaniel1798@gmail.com
+ * @created   19/08/2017 - 11:27
+ * @web       ---
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+  }
+  
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* =CSS Reset */
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+  *, html, body {
+      margin:0;
+      padding:0;
+      }
+  
+  /* regra para o box-sizing */
+  *, *:before, *:after {
+      -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box;
+  }
+  /* regra para o clear float */
+  .cf:before,
+  .cf:after {content: " ";display: table;}
+  .cf:after {clear: both;}
+  .cf {*zoom: 1;}
+  body {
+      }
+
+      ::-webkit-scrollbar{ 
+        background-color: #5d5d5d;
+        width: 5px;
+    }
+    ::-webkit-scrollbar-button{
+        background-color: rgb(0, 90, 142);
+        height: 1px;
+    }
+    ::-webkit-scrollbar-track{ 
+        background-color: #fff;
+    }
+    ::-webkit-scrollbar-track-piece{ 
+        background-color: #00324e;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: #00a2ff;
+    }
+    ::-webkit-scrollbar-corner{ 
+        background-color: rgba(0, 0, 0, 0);
+    }
+    ::-webkit-resizer{ 
+        background-color: rgba(255, 255, 255, 0);
+    }

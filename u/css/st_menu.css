@@ -1,0 +1,372 @@
+/*
+ * Web Site SocialTec
+ *
+ * @author    Antonio Souza
+ * @copyright 
+ * @license   MIT
+ * @mail      gabrieldaniel1798@gmail.com
+ * @created   19/08/2017 - 11:27
+ * @web       ---
+ */
+
+
+.menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu{
+    height: 50px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #232323;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #2b2b2b;
+}
+
+.menu ul li a:hover {
+    background-color: rgba(214, 214, 214, 0);
+    color: #00456d;
+    border-bottom: 3px solid #00a2ff;
+}
+
+.menu ul li a {
+    background-color: rgba(214, 214, 214, 0);
+    color: #00a2ff;
+    border-bottom: 3px solid rgba(234, 0, 0, 0);
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    height: 39px;
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu .icon ul li a:hover {
+    background-color: rgba(214, 214, 214, 0);
+    color: #00456d;
+    border-bottom: 3px solid #00a2ff;
+}
+
+.menu .icon ul li a {
+    background-color: rgba(214, 214, 214, 0);
+    color: #00a2ff;
+    border-bottom: 3px solid rgba(234, 0, 0, 0);
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    height: 80%;
+    display: block;
+}
+
+.e-icon {
+    color: #e0e0e0;
+    font-size: 30px;
+    text-rendering: geometricPrecision;
+    border: 1px solid #ababab;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.e-icon:hover {
+    color: #e0e0e0;
+    font-size: 30px;
+    text-rendering: geometricPrecision;
+    border: 1px solid #ababab;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.menu-position .left{
+    float: left;
+}
+
+.menu-position .right {
+    float: right;
+}
+
+.logo {
+    height: 44px;
+    top: 0px;
+    margin-left: -24px;
+}
+
+#login-btn {
+    visibility: visible;
+}
+
+#login-btn-mobile {
+    visibility: hidden;
+}
+
+.user-picture img {
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 33%;
+    margin-top: 10px;
+}
+
+.user-info .name {
+    font-size: 12px;
+    color: #e0e0e0;
+    text-decoration: none;
+    font-family: "Play";
+    display: block;
+    text-align: center;
+    font-style: normal;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.user-info .course {
+    font-size: 11px;
+    color: #989898;
+    text-decoration: none;
+    font-family: "Play";
+    display: block;
+    text-align: center;
+    font-style: normal;
+    padding-bottom: 5px;
+}
+
+#lateral {
+	padding:0 50px 0 0;
+	-moz-transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+				transition: all 0.5s cubic-bezier(0.13, 0.01, 0, 0.95);
+	font-size:1.2em;
+	background:rgb(35, 35, 35);
+	height:100%;
+	overflow:hidden;
+	width:215px; 
+	position:fixed;
+	top: 50px;
+	left:-165px;
+    }
+
+    #l_menu {
+        padding:0 50px 0 0;
+        font-size:1.2em;
+        background:rgb(35, 35, 35);
+        height:100%;
+        overflow:hidden;
+        width:215px; 
+        position:fixed;
+        top: 130px;
+        }
+
+    #lateral .fixed{
+        padding:0 50px 0 0;
+        -moz-transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+                -o-transition: all 0.5s ease;
+                    transition: all 0.5s ease;
+        font-size:1.2em;
+        background:rgb(35, 35, 35);
+        height:100%;
+        overflow:hidden;
+        width:215px; 
+        position:fixed;
+        top: 50px;
+        left:-165px;
+        }
+    
+#lateral:before {
+	z-index:1000;
+	content: url(icone-menu.png);
+	font-size:4em;
+	color:white;
+	position:fixed;
+	left:4px;
+	top:45px;
+    }
+    
+    #l_menu:before {
+        z-index:1000;
+        content: url(icone-menu.png);
+        font-size:4em;
+        color:white;
+        position:fixed;
+        left:4px;
+        top:45px;
+        }
+
+#lateral:hover:before, #lateral:focus:before {
+left:-500px
+    }
+    
+    #l_menu:hover:before, #l_menu:focus:before {
+        left:-500px
+            }
+
+#lateral:hover, #lateral:focus,  #lateral:active  {
+	-moz-transform: translate(165px, 0);
+		-webkit-transform: translate(165px, 0);
+			-o-transform: translate(165px, 0);
+				transform: translate(165px, 0);
+	padding-right:0;
+    }	
+
+    #l_menu:hover, #l_menu:focus,  #l_menu:active  {
+        overflow:scroll;
+        padding-right:0;
+        }	
+    
+    #lateral .box {
+        list-style-type:none;
+        margin-bottom:1em;;
+        padding-bottom:1em;
+        }
+
+        #l_menu .box {
+            list-style-type:none;
+            margin-bottom:1em;;
+            padding-bottom:1em;
+            }
+
+    #lateral h3 {
+        display: inline-block;
+        font-weight: normal;
+        font-family: "Play";
+        padding-bottom: 0.8em;
+        margin: 0em 0px 0em 30px;
+        font-style: initial;
+        color: rgb(125, 125, 125);
+        font-size: 11px;
+        }
+    #menu {
+        font-style:italic;
+        position:relative;
+        font-size:1.0em;
+        margin:1em 0 1em -1em;
+        padding:0;
+        }
+    #menu li {padding:0; margin:0;}
+    #menu li a,  #menu li a:link {
+        font-size: 12px;
+        color: #e0e0e0;
+        text-decoration: none;
+        font-family: "Play";
+        padding: 0.8em 0 0.8em 2.5em;
+        display: block;
+        -moz-transition: all 1.2s ease;
+                -webkit-transition: all 1.2s ease;
+                    -o-transition: all 1.2s ease;
+                        transition: all 1.2s ease;
+        }
+    #menu li a:hover {
+        color:rgb(255,255,255);
+        background-color:rgba(255,255,255,0.2);
+        -moz-transition: all 0.5s ease;
+                -webkit-transition: all 0.5s ease;
+                    -o-transition: all 0.5s ease;
+                        transition: all 0.5s ease;
+        }
+
+        @media (max-width: 500px) {
+            body {margin-left:0;background-size:100% 28em!important;}
+            #lateral {
+                padding:0;
+                -moz-transition: all 0.5s ease;
+                    -webkit-transition: all 0.5s ease;
+                        -o-transition: all 0.5s ease;
+                            transition: all 0.5s ease;
+                font-size:1.2em;
+                height:100%;
+                overflow:auto;
+                width:100%; 
+                position:static;
+                top:0;
+                left:0;
+                }
+            #lateral:before {
+                z-index:1000;
+                width:0;
+                text-align:center;
+                content: "";
+                font-size:0;
+                color:white;
+                position:static;
+                top:0;
+                left:0;
+                display:inline-block; 
+                }
+            #lateral:hover, #lateral:focus {
+                overflow:scroll;
+                -moz-transform: none;
+                    -webkit-transform: none;
+                        -o-transform:none;
+                            transform:none;
+                }
+
+                #l_menu {
+                    padding:0;
+                    -moz-transition: all 0.5s ease;
+                        -webkit-transition: all 0.5s ease;
+                            -o-transition: all 0.5s ease;
+                                transition: all 0.5s ease;
+                    font-size:1.2em;
+                    height:100%;
+                    overflow:auto;
+                    width:100%; 
+                    position:static;
+                    top:0;
+                    left:0;
+                    }
+                #l_menu:before {
+                    z-index:1000;
+                    width:0;
+                    text-align:center;
+                    content: "";
+                    font-size:0;
+                    color:white;
+                    position:static;
+                    top:0;
+                    left:0;
+                    display:inline-block; 
+                    }
+                #l_menu:hover, #lateral:focus {
+                    overflow:scroll;
+                    -moz-transform: none;
+                        -webkit-transform: none;
+                            -o-transform:none;
+                                transform:none;
+                    }
+
+            #menu li a {border-bottom:1px solid #ccc;}
+            #menu li:first-child a {border-top:1px solid #ccc;}	
+            }
+
+@media screen and (max-width: 422px) { 
+	.logo {
+        height: 46px;
+    }
+
+    #login-btn {
+        visibility: hidden;
+        position: absolute;
+        display: none;
+    }
+    
+    #login-btn-mobile {
+        visibility: visible;
+    }
+
+}
